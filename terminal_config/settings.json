@@ -1,0 +1,278 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Aric Focused",
+            "font": 
+            {
+                "face": "SauceCodePro Nerd Font",
+                "size": 12
+            },
+            "opacity": 80,
+            "startingDirectory": "%USERPROFILE%",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "font": 
+                {
+                    "face": "SauceCodePro Nerd Font",
+                    "size": 12
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico",
+                "name": "PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "font": 
+                {
+                    "face": "CaskaydiaCove NF"
+                },
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{83bfdb03-a6e4-51c9-88a1-be80a55fc27d}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{f8feff91-25c1-5ffa-a27f-80f7f01da22f}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{67dfe858-2fe2-5b8d-9bdd-ea57ecf51422}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{605f53cf-a4ff-565a-b913-e471822dbb45}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{642d7059-34b3-516e-8655-8bd140181c37}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{4f36a56b-f812-59b5-b379-f38209ee7750}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2ab773a6-f624-5a8b-bc85-7c9906a5a787}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{f7a238aa-330f-5e0f-b624-0f50eff96359}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{ac8a5305-ebe8-50e6-8f5e-5a66155dad60}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{fa7e7d60-56ec-5e8f-bf8e-132d9db03b68}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{68e73d66-5000-5a9f-b021-c82fd64642e9}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{209b481f-861c-52e1-9625-c961fc192fe3}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{28e031c3-74de-580d-9eb1-1fff6cdcd97c}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{f45ee135-6b24-58ee-bf68-74f81888b3f3}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "cursorShape": "bar",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "SauceCodePro Nerd Font",
+                    "size": 12
+                },
+                "guid": "{c58659e6-5388-4c2a-b2b6-7e53e08dda60}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico",
+                "name": "PowerShell (Elevated)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true
+            },
+            {
+                "guid": "{67670e8c-0845-5303-b685-cbc8800a8e78}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0D1954",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#13A10E",
+            "name": "Aric Focused",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#2875E5",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#F5F5F5",
+            "green": "#13A10E",
+            "name": "Campbell (modified)",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "themes": []
+}

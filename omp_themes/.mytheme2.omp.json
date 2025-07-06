@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "Enabled": false,
+          "background": "green",
+          "foreground": "#fff",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0c6",
+          "type": "path"
+        },
+        {
+          "Enabled": false,
+          "background": "#000080",
+          "foreground": "#fff",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "fetch_status": true
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0c6",
+          "type": "git"
+        },
+        {
+          "Enabled": false,
+          "background": "#00ffff",
+          "foreground": "#000000",
+          "leading_diamond": "\ue0c7",
+          "style": "diamond",
+          "trailing_diamond": "\ue0c6",
+          "type": "dotnet"
+        },
+        {
+          "Enabled": false,
+          "background": "#FFDE57",
+          "foreground": "#111111",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "display_mode": "files",
+            "fetch_virtual_env": false
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0c6",
+          "type": "python"
+        },
+        {
+          "Enabled": false,
+          "background": "lightMagenta",
+          "foreground": "#fff",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "time_format": "15:04"
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0c6",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "transient_prompt": {
+    "Enabled": false
+  },
+  "version": 2
+}

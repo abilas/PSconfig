@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "green",
+          "foreground": "#fff",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "diamond",
+          "template": " {{ .Path }} ",
+          "trailing_diamond": "\ue0c6",
+          "type": "path"
+        },
+        {
+          "background": "#000080",
+          "foreground": "#fff",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "fetch_status": true
+          },
+          "style": "diamond",
+          "template": " {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
+          "trailing_diamond": "\ue0c6",
+          "type": "git"
+        },
+        {
+          "background": "#00ffff",
+          "foreground": "#000000",
+          "leading_diamond": "\ue0c7",
+          "style": "diamond",
+          "template": " \ue77f {{ if .Unsupported }}\uf071{{ else }}{{ .Full }}{{ end }} ",
+          "trailing_diamond": "\ue0c6",
+          "type": "dotnet"
+        },
+        {
+          "background": "#FFDE57",
+          "foreground": "#111111",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "display_mode": "files",
+            "fetch_virtual_env": false
+          },
+          "style": "diamond",
+          "template": " {{ .Full }} \ue235 ",
+          "trailing_diamond": "\ue0c6",
+          "type": "python"
+        },
+        {
+          "background": "lightMagenta",
+          "foreground": "#fff",
+          "leading_diamond": "\ue0c7",
+          "properties": {
+            "time_format": "15:04"
+          },
+          "style": "diamond",
+          "template": " {{ .CurrentDate | date .Format }} ",
+          "trailing_diamond": "\ue0c6",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
