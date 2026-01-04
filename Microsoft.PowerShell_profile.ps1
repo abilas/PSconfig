@@ -1,6 +1,6 @@
-oh-my-posh init pwsh --config ~\OneDrive\omp_themes\craver_mod.omp.json | Invoke-Expression
+#oh-my-posh init pwsh --config ~\OneDrive\omp_themes\craver_mod.omp.json | Invoke-Expression
 #oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\clean-detailed.omp.json | Invoke-Expression
-#oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/abilas/PSconfig/main/omp_themes/craver-mod.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/abilas/PSconfig/main/omp_themes/craver-mod.omp.json' | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 Import-Module PSReadline
